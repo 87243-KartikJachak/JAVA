@@ -41,7 +41,7 @@ public class FruitBasket
 					apple.isItFresh();
 					if(apple.isFresh)
 					{
-						basket[counter] = new Apple();
+						basket[counter] =apple;
 						counter++;
 					}
 				break;
@@ -51,7 +51,7 @@ public class FruitBasket
 					orange.isItFresh();
 					if(orange.isFresh)
 					{						
-						basket[counter] = new Orange();
+						basket[counter] = orange;
 						counter++;
 					}
 				break;
@@ -61,7 +61,7 @@ public class FruitBasket
 					mango.isItFresh();
 					if(mango.isFresh)
 					{						
-						basket[counter] = new Orange();
+						basket[counter] = mango;
 						counter++;
 					}
 				break;

@@ -34,15 +34,15 @@ class StudentNameComparatorAsc implements Comparator<Student>
 	
 }
 
-class StudentRollComparator implements Comparator<Student>
-{
+// class StudentRollComparator implements Comparator<Student>
+// {
 
-	@Override
-	public int compare(Student o1, Student o2) {
-		// TODO Auto-generated method stub
-		return o1.getRoll() - o2.getRoll();
-	}	
-}
+// 	@Override
+// 	public int compare(Student o1, Student o2) {
+// 		// TODO Auto-generated method stub
+// 		return o1.getRoll() - o2.getRoll();
+// 	}	
+// }
 
 public class Assignment_07_Q1 {
 
@@ -106,8 +106,8 @@ public class Assignment_07_Q1 {
 				break;
 				case 5:
 						Student s5 = new Student();
-						comparator = new StudentRollComparator();
-						Arrays.sort(stud, comparator);
+						// comparator = new StudentRollComparator();
+						Arrays.sort(stud);
 						s5.display(stud);
 				break;
 				
